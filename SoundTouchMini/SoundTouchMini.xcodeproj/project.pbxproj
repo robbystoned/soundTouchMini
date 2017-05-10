@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4ED5A281EC39C8100916E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED5A271EC39C8100916E63 /* AppDelegate.swift */; };
+		C4ED5A2A1EC39C8100916E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED5A291EC39C8100916E63 /* ViewController.swift */; };
+		C4ED5A2C1EC39C8100916E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4ED5A2B1EC39C8100916E63 /* Assets.xcassets */; };
+		C4ED5A2F1EC39C8100916E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ED5A2D1EC39C8100916E63 /* Main.storyboard */; };
+		C4ED5A3A1EC39C8100916E63 /* SoundTouchMiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED5A391EC39C8100916E63 /* SoundTouchMiniTests.swift */; };
+		C4ED5A451EC39C8100916E63 /* SoundTouchMiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED5A441EC39C8100916E63 /* SoundTouchMiniUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4ED5A361EC39C8100916E63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4ED5A1C1EC39C8100916E63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4ED5A231EC39C8100916E63;
+			remoteInfo = SoundTouchMini;
+		};
+		C4ED5A411EC39C8100916E63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4ED5A1C1EC39C8100916E63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4ED5A231EC39C8100916E63;
+			remoteInfo = SoundTouchMini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4ED5A241EC39C8100916E63 /* SoundTouchMini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundTouchMini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4ED5A271EC39C8100916E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4ED5A291EC39C8100916E63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4ED5A2B1EC39C8100916E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4ED5A2E1EC39C8100916E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4ED5A301EC39C8100916E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4ED5A351EC39C8100916E63 /* SoundTouchMiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundTouchMiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4ED5A391EC39C8100916E63 /* SoundTouchMiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTouchMiniTests.swift; sourceTree = "<group>"; };
+		C4ED5A3B1EC39C8100916E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4ED5A401EC39C8100916E63 /* SoundTouchMiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundTouchMiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4ED5A441EC39C8100916E63 /* SoundTouchMiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTouchMiniUITests.swift; sourceTree = "<group>"; };
+		C4ED5A461EC39C8100916E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4ED5A211EC39C8100916E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4ED5A321EC39C8100916E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4ED5A3D1EC39C8100916E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4ED5A1B1EC39C8100916E63 = {
+			isa = PBXGroup;
+			children = (
+				C4ED5A261EC39C8100916E63 /* SoundTouchMini */,
+				C4ED5A381EC39C8100916E63 /* SoundTouchMiniTests */,
+				C4ED5A431EC39C8100916E63 /* SoundTouchMiniUITests */,
+				C4ED5A251EC39C8100916E63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4ED5A251EC39C8100916E63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED5A241EC39C8100916E63 /* SoundTouchMini.app */,
+				C4ED5A351EC39C8100916E63 /* SoundTouchMiniTests.xctest */,
+				C4ED5A401EC39C8100916E63 /* SoundTouchMiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4ED5A261EC39C8100916E63 /* SoundTouchMini */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED5A271EC39C8100916E63 /* AppDelegate.swift */,
+				C4ED5A291EC39C8100916E63 /* ViewController.swift */,
+				C4ED5A2B1EC39C8100916E63 /* Assets.xcassets */,
+				C4ED5A2D1EC39C8100916E63 /* Main.storyboard */,
+				C4ED5A301EC39C8100916E63 /* Info.plist */,
+			);
+			path = SoundTouchMini;
+			sourceTree = "<group>";
+		};
+		C4ED5A381EC39C8100916E63 /* SoundTouchMiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED5A391EC39C8100916E63 /* SoundTouchMiniTests.swift */,
+				C4ED5A3B1EC39C8100916E63 /* Info.plist */,
+			);
+			path = SoundTouchMiniTests;
+			sourceTree = "<group>";
+		};
+		C4ED5A431EC39C8100916E63 /* SoundTouchMiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED5A441EC39C8100916E63 /* SoundTouchMiniUITests.swift */,
+				C4ED5A461EC39C8100916E63 /* Info.plist */,
+			);
+			path = SoundTouchMiniUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4ED5A231EC39C8100916E63 /* SoundTouchMini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4ED5A491EC39C8100916E63 /* Build configuration list for PBXNativeTarget "SoundTouchMini" */;
+			buildPhases = (
+				C4ED5A201EC39C8100916E63 /* Sources */,
+				C4ED5A211EC39C8100916E63 /* Frameworks */,
+				C4ED5A221EC39C8100916E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundTouchMini;
+			productName = SoundTouchMini;
+			productReference = C4ED5A241EC39C8100916E63 /* SoundTouchMini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4ED5A341EC39C8100916E63 /* SoundTouchMiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4ED5A4C1EC39C8100916E63 /* Build configuration list for PBXNativeTarget "SoundTouchMiniTests" */;
+			buildPhases = (
+				C4ED5A311EC39C8100916E63 /* Sources */,
+				C4ED5A321EC39C8100916E63 /* Frameworks */,
+				C4ED5A331EC39C8100916E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4ED5A371EC39C8100916E63 /* PBXTargetDependency */,
+			);
+			name = SoundTouchMiniTests;
+			productName = SoundTouchMiniTests;
+			productReference = C4ED5A351EC39C8100916E63 /* SoundTouchMiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4ED5A3F1EC39C8100916E63 /* SoundTouchMiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4ED5A4F1EC39C8100916E63 /* Build configuration list for PBXNativeTarget "SoundTouchMiniUITests" */;
+			buildPhases = (
+				C4ED5A3C1EC39C8100916E63 /* Sources */,
+				C4ED5A3D1EC39C8100916E63 /* Frameworks */,
+				C4ED5A3E1EC39C8100916E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4ED5A421EC39C8100916E63 /* PBXTargetDependency */,
+			);
+			name = SoundTouchMiniUITests;
+			productName = SoundTouchMiniUITests;
+			productReference = C4ED5A401EC39C8100916E63 /* SoundTouchMiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4ED5A1C1EC39C8100916E63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Robert vd Steen";
+				TargetAttributes = {
+					C4ED5A231EC39C8100916E63 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					C4ED5A341EC39C8100916E63 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4ED5A231EC39C8100916E63;
+					};
+					C4ED5A3F1EC39C8100916E63 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4ED5A231EC39C8100916E63;
+					};
+				};
+			};
+			buildConfigurationList = C4ED5A1F1EC39C8100916E63 /* Build configuration list for PBXProject "SoundTouchMini" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4ED5A1B1EC39C8100916E63;
+			productRefGroup = C4ED5A251EC39C8100916E63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4ED5A231EC39C8100916E63 /* SoundTouchMini */,
+				C4ED5A341EC39C8100916E63 /* SoundTouchMiniTests */,
+				C4ED5A3F1EC39C8100916E63 /* SoundTouchMiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4ED5A221EC39C8100916E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED5A2C1EC39C8100916E63 /* Assets.xcassets in Resources */,
+				C4ED5A2F1EC39C8100916E63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4ED5A331EC39C8100916E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4ED5A3E1EC39C8100916E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4ED5A201EC39C8100916E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED5A2A1EC39C8100916E63 /* ViewController.swift in Sources */,
+				C4ED5A281EC39C8100916E63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4ED5A311EC39C8100916E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED5A3A1EC39C8100916E63 /* SoundTouchMiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4ED5A3C1EC39C8100916E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED5A451EC39C8100916E63 /* SoundTouchMiniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4ED5A371EC39C8100916E63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4ED5A231EC39C8100916E63 /* SoundTouchMini */;
+			targetProxy = C4ED5A361EC39C8100916E63 /* PBXContainerItemProxy */;
+		};
+		C4ED5A421EC39C8100916E63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4ED5A231EC39C8100916E63 /* SoundTouchMini */;
+			targetProxy = C4ED5A411EC39C8100916E63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4ED5A2D1EC39C8100916E63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4ED5A2E1EC39C8100916E63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4ED5A471EC39C8100916E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4ED5A481EC39C8100916E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C4ED5A4A1EC39C8100916E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundTouchMini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.SoundTouchMini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C4ED5A4B1EC39C8100916E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundTouchMini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.SoundTouchMini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C4ED5A4D1EC39C8100916E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundTouchMiniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.SoundTouchMiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundTouchMini.app/Contents/MacOS/SoundTouchMini";
+			};
+			name = Debug;
+		};
+		C4ED5A4E1EC39C8100916E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundTouchMiniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.SoundTouchMiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundTouchMini.app/Contents/MacOS/SoundTouchMini";
+			};
+			name = Release;
+		};
+		C4ED5A501EC39C8100916E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundTouchMiniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.SoundTouchMiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoundTouchMini;
+			};
+			name = Debug;
+		};
+		C4ED5A511EC39C8100916E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SoundTouchMiniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.robbystoned.SoundTouchMiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoundTouchMini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4ED5A1F1EC39C8100916E63 /* Build configuration list for PBXProject "SoundTouchMini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4ED5A471EC39C8100916E63 /* Debug */,
+				C4ED5A481EC39C8100916E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4ED5A491EC39C8100916E63 /* Build configuration list for PBXNativeTarget "SoundTouchMini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4ED5A4A1EC39C8100916E63 /* Debug */,
+				C4ED5A4B1EC39C8100916E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4ED5A4C1EC39C8100916E63 /* Build configuration list for PBXNativeTarget "SoundTouchMiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4ED5A4D1EC39C8100916E63 /* Debug */,
+				C4ED5A4E1EC39C8100916E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4ED5A4F1EC39C8100916E63 /* Build configuration list for PBXNativeTarget "SoundTouchMiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4ED5A501EC39C8100916E63 /* Debug */,
+				C4ED5A511EC39C8100916E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4ED5A1C1EC39C8100916E63 /* Project object */;
+}
