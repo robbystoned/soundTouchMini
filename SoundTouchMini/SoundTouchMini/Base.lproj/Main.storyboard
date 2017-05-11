@@ -696,6 +696,9 @@
                         </menuItem>
                         <menuItem title="Quit" id="HI6-Wa-Fha">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="QuitApp:" target="Voe-Tx-rLC" id="Hb7-ZF-Xv1"/>
+                            </connections>
                         </menuItem>
                     </items>
                 </menu>

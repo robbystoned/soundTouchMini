@@ -29,6 +29,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
 
+    @IBAction func QuitApp(_ sender: Any) {
+        exit(0)
+    }
 
 }
 
