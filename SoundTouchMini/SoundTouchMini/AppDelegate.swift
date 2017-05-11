@@ -10,11 +10,19 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
+    
+    
+    @IBOutlet weak var menu: NSMenu!
+   
+    let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)    
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        let icon = NSImage(named: "stlogo")
+        //icon?.setTemplate = true
+        statusItem.image = icon
+        statusItem.menu = menu
+
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
