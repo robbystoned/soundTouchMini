@@ -658,6 +658,7 @@
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SoundTouchMini" customModuleProvider="target">
                     <connections>
                         <outlet property="menu" destination="oOj-EL-KZQ" id="KAF-9p-cmd"/>
+                        <outlet property="pressPower" destination="nuc-I3-51x" id="WIw-tI-EFe"/>
                     </connections>
                 </customObject>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -665,6 +666,9 @@
                     <items>
                         <menuItem title="Power" id="nuc-I3-51x">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="pressPower:" target="Voe-Tx-rLC" id="mJ4-g2-SbM"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="Play" id="uF6-1L-qSa">
                             <modifierMask key="keyEquivalentModifierMask"/>
@@ -678,21 +682,39 @@
                         <menuItem isSeparatorItem="YES" id="9OO-3t-knL"/>
                         <menuItem title="Preset 1" id="1sl-EZ-06g">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="pressPreset1:" target="Voe-Tx-rLC" id="42c-6z-Sbo"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="Preset 2" id="R0A-ff-aFF">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="pressPreset2:" target="Voe-Tx-rLC" id="cV7-dT-L5r"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="Preset 3" id="91z-JO-89C">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="pressPreset3:" target="Voe-Tx-rLC" id="Ad0-Y3-ail"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="Preset 4" id="oqr-ok-ozW">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="pressPreset4:" target="Voe-Tx-rLC" id="ctD-Ev-d5z"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="Preset 5" id="ezF-Jf-SxY">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="pressPreset5:" target="Voe-Tx-rLC" id="CN9-Lf-SPt"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="Preset 6" id="Wx3-zY-rTO">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="pressPreset6:" target="Voe-Tx-rLC" id="taK-xJ-wl2"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="Quit" id="HI6-Wa-Fha">
                             <modifierMask key="keyEquivalentModifierMask"/>

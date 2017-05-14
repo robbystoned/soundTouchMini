@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C45F21C91EC6487600E95ED2 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F21C31EC6487600E95ED2 /* Document.swift */; };
+		C45F21CA1EC6487600E95ED2 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F21C41EC6487600E95ED2 /* Element.swift */; };
+		C45F21CB1EC6487600E95ED2 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F21C51EC6487600E95ED2 /* Error.swift */; };
+		C45F21CC1EC6487600E95ED2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45F21C61EC6487600E95ED2 /* Info.plist */; };
+		C45F21CD1EC6487600E95ED2 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F21C71EC6487600E95ED2 /* Options.swift */; };
+		C45F21CE1EC6487600E95ED2 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F21C81EC6487600E95ED2 /* Parser.swift */; };
+		C4CBA8441EC63C4D0002626F /* httpRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBA8421EC63C4D0002626F /* httpRequestController.swift */; };
+		C4CBA8451EC63C4D0002626F /* InterfacePresetsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBA8431EC63C4D0002626F /* InterfacePresetsController.swift */; };
 		C4ED5A281EC39C8100916E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED5A271EC39C8100916E63 /* AppDelegate.swift */; };
 		C4ED5A2A1EC39C8100916E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ED5A291EC39C8100916E63 /* ViewController.swift */; };
 		C4ED5A2C1EC39C8100916E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4ED5A2B1EC39C8100916E63 /* Assets.xcassets */; };
@@ -33,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C45F21C21EC6487600E95ED2 /* AEXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AEXML.h; path = "../../../../Downloads/AEXML-4.1.0/Sources/AEXML.h"; sourceTree = "<group>"; };
+		C45F21C31EC6487600E95ED2 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Document.swift; path = "../../../../Downloads/AEXML-4.1.0/Sources/Document.swift"; sourceTree = "<group>"; };
+		C45F21C41EC6487600E95ED2 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Element.swift; path = "../../../../Downloads/AEXML-4.1.0/Sources/Element.swift"; sourceTree = "<group>"; };
+		C45F21C51EC6487600E95ED2 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Error.swift; path = "../../../../Downloads/AEXML-4.1.0/Sources/Error.swift"; sourceTree = "<group>"; };
+		C45F21C61EC6487600E95ED2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../Downloads/AEXML-4.1.0/Sources/Info.plist"; sourceTree = "<group>"; };
+		C45F21C71EC6487600E95ED2 /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Options.swift; path = "../../../../Downloads/AEXML-4.1.0/Sources/Options.swift"; sourceTree = "<group>"; };
+		C45F21C81EC6487600E95ED2 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = "../../../../Downloads/AEXML-4.1.0/Sources/Parser.swift"; sourceTree = "<group>"; };
+		C4CBA8421EC63C4D0002626F /* httpRequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = httpRequestController.swift; sourceTree = "<group>"; };
+		C4CBA8431EC63C4D0002626F /* InterfacePresetsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfacePresetsController.swift; sourceTree = "<group>"; };
 		C4ED5A241EC39C8100916E63 /* SoundTouchMini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundTouchMini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ED5A271EC39C8100916E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4ED5A291EC39C8100916E63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +112,15 @@
 		C4ED5A261EC39C8100916E63 /* SoundTouchMini */ = {
 			isa = PBXGroup;
 			children = (
+				C45F21C21EC6487600E95ED2 /* AEXML.h */,
+				C45F21C31EC6487600E95ED2 /* Document.swift */,
+				C45F21C41EC6487600E95ED2 /* Element.swift */,
+				C45F21C51EC6487600E95ED2 /* Error.swift */,
+				C45F21C61EC6487600E95ED2 /* Info.plist */,
+				C45F21C71EC6487600E95ED2 /* Options.swift */,
+				C45F21C81EC6487600E95ED2 /* Parser.swift */,
+				C4CBA8421EC63C4D0002626F /* httpRequestController.swift */,
+				C4CBA8431EC63C4D0002626F /* InterfacePresetsController.swift */,
 				C4ED5A271EC39C8100916E63 /* AppDelegate.swift */,
 				C4ED5A291EC39C8100916E63 /* ViewController.swift */,
 				C4ED5A2B1EC39C8100916E63 /* Assets.xcassets */,
@@ -231,6 +257,7 @@
 			files = (
 				C4ED5A2C1EC39C8100916E63 /* Assets.xcassets in Resources */,
 				C4ED5A2F1EC39C8100916E63 /* Main.storyboard in Resources */,
+				C45F21CC1EC6487600E95ED2 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CBA8451EC63C4D0002626F /* InterfacePresetsController.swift in Sources */,
+				C4CBA8441EC63C4D0002626F /* httpRequestController.swift in Sources */,
+				C45F21CA1EC6487600E95ED2 /* Element.swift in Sources */,
 				C4ED5A2A1EC39C8100916E63 /* ViewController.swift in Sources */,
+				C45F21CD1EC6487600E95ED2 /* Options.swift in Sources */,
+				C45F21CE1EC6487600E95ED2 /* Parser.swift in Sources */,
 				C4ED5A281EC39C8100916E63 /* AppDelegate.swift in Sources */,
+				C45F21CB1EC6487600E95ED2 /* Error.swift in Sources */,
+				C45F21C91EC6487600E95ED2 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
