@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5687D0D1023D8BD2B74CB8EAF995E4B555EBA065",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5687D0D1023D8BD2B74CB8EAF995E4B555EBA065" : 9223372036854775807,
+    "93844B81BA11E27539C2869548B2DC67A997B27C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4C01F0BA-2A48-4022-8806-789FADC0B6E2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5687D0D1023D8BD2B74CB8EAF995E4B555EBA065" : "soundTouchMini\/",
+    "93844B81BA11E27539C2869548B2DC67A997B27C" : "SoundTochWatch\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SoundTouchMini",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SoundTouchMini\/SoundTouchMini.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/robbystoned\/soundTouchMini.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5687D0D1023D8BD2B74CB8EAF995E4B555EBA065"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/Mini-van-Robert.fritz.box\/git\/SoundTochWatch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "93844B81BA11E27539C2869548B2DC67A997B27C"
+    }
+  ]
+}

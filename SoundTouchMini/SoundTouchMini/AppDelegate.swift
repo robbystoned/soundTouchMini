@@ -25,6 +25,40 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem.image = icon
         statusItem.menu = menu
 
+        let url = NSURL(string: serverName + "presets")!
+        let request = NSMutableURLRequest(url: url as URL)
+        request.httpMethod = "GET"
+        
+        
+        let task = URLSession.shared.dataTask(with: request as URLRequest) { data, response, error in
+            guard error == nil && data != nil else {                                                          // check for fundamental networking error
+                print("error=\(error)")
+                return
+            }
+            
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {           // check for http errors
+                print("statusCode should be 200, but is \(httpStatus.statusCode)")
+                print("response = \(response)")
+            }
+            
+            do{
+                let xmlDoc = try AEXMLDocument(xml: data!)
+                
+                if let presets = xmlDoc.root["preset"].all {
+                    for preset in presets {
+                        let presetId:Int? = Int(preset.attributes["id"]!)
+                        self.presetsArr[(presetId!-1)] = preset["ContentItem"].xml
+                        
+                    }
+                }
+            }catch{
+                print("\(error)")
+            }
+            
+        }
+        
+        task.resume()
+
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
